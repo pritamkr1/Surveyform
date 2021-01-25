@@ -1,0 +1,65 @@
+*{
+    padding: 0 auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.main{
+    height: 100vh;
+    background-image: linear-gradient( to top, rgba(0, 0, 255, 0.527),rgba(212, 0, 255, 0.534)), url("/maxwell-nelson-VJeAZr-Bu9E-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    color: red;
+}
+
+div.header h1{
+    text-align: center;
+    color: #fff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+
+}
+div.header p{
+    text-align: center;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+/*------Start form section----------*/
+
+div.form-section{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input[type="text"], input[type="email"], #dropdown, #number{
+    width: 400px;
+    outline: 0;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#textarea{
+    width: 400px;
+    outline: 0;
+    padding: 20px;
+    height: 100px;
+    margin-top: 10px
+}
+
+#submit{
+    padding: 10px 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    outline-color: aqua;
+}

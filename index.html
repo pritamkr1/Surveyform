@@ -1,0 +1,60 @@
+<!Doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="desciption" content="survey form with freecodecamp">
+    <meta name="keyword" content="">
+    <meta name="author" content="Pritam Kumar">
+    <title>Survey form with freecodecamp.</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <main class="main">
+        <!--Header-->
+        <div class="header">
+            <h1 id="title">Survey From</h1>
+            <p id="description"> Thank you Freecodecamp.
+        </div>
+
+<!--From Element-->
+        <div class="form-section">
+            <form id="survey-form">
+                <label for="name" id="name-label">Name:</label> <br>
+                <input type="text" id="name" required placeholder="Enter Your name"><br>
+               <label for="email" id="email-label"> Email:</label> <br>
+                <input type="email" id="email" required placeholder="Enter your email"><br>
+               <label for="age" id="number-label" > Age:</label> <br>
+                <input type="number" id="number" min="10" max="30" placeholder="Enter your age"><br>
+
+                <label for="city" id="city-label">Select your city: </label><br>
+
+                    <select id="dropdown" required>
+                        <option selected disabled> Select your city </option>
+                        <option> Hazaribagh</option>
+                        <option> Ranchi</option>
+                        <option> Goa</option>
+                        <option> Dumka</option>
+                        <option> Bokaro</option>
+                        </select
+                        >
+                        <br>
+                        <label for="gender" id="gender-label"> Gender: </label> <br>
+                        
+                        <input type="radio" checked value="female" name="user-gender" > Female <br>
+                        <input type="radio"  value="male" name="user-gender" > Male <br>
+                        <input type="radio"  value="others" name="user-gender"> Others <br>
+
+                        <lable for="textarea" id="comment" >Add your comment: </label></br>
+                        <textarea placeholder="Enter your comment" id="textarea" name="comment"> </textarea>
+                            <br>
+                        <button type="submit" id="submit" style="outline: 0ch;"> Submit</button>
+
+            </form>
+        </dvi>
+    </main>
+
+</body>
+</html>
